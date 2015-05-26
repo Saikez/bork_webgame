@@ -1,0 +1,64 @@
+html {
+  background-image: url("../img/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  background-color: white;
+  border-radius: 5px;
+}
+
+h2 {
+  background-color: red;
+  border-radius: 5px;
+}
+
+h3 {
+  background-color: white;
+  border-radius: 5px;
+}
+
+img {
+  border: solid 5px;
+  border-color: #303030;
+  border-radius: 30px;
+  max-width: 80%;
+  max-height: 350px;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color: darkred;
+}
+
+p {
+  background-color: rgba(170,170,170,0.85);
+  border-radius: 5px;
+  padding: 5px;
+  text-shadow: 0px 0px 5px whitesmoke;
+}
+
+menu {
+  background-color: rgba(170,170,170,0.85);
+  border-radius: 8px;
+  display: inline-block;
+  text-align: left;
+  padding: 20px;
+}
+
+.content {
+  display: block;
+  width: 80%;
+  height: 80%;
+  float: center;
+  margin: auto;
+  border: solid 5px;
+  border-radius: 1em;
+  border-color: #303030;
+  padding: 1em;
+  background-image: url("../img/cobblestone.jpeg");
+  text-align: center;
+}
